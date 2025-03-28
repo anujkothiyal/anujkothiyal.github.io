@@ -1,0 +1,16 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == ' production ' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+// body {
+//   background-image: url('/assets/img/background-home.jpg'); /* Replace with your image path */
+//   background-size: cover; /* Or other background-size options */
+//   background-attachment: fixed; /* Optional: for a fixed background */
+// }
+// $base-font-family: 'PT Serif', serif;
